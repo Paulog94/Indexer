@@ -1,0 +1,52 @@
+Paulo Garcia and Roel Ronquillo
+Assignment 3 Indexer
+
+First Test Case is to prove The tokenizer works:
+	Test.txt:
+		First Test Case
+		Paulo1 paulo
+		This an$example12 mail@rutgers
+Expected output:
+{"list":[
+	{"an":[
+		{"test.txt" : 1}
+	]},
+	{"case":[
+		{"test.txt" : 1}
+	]},
+	{"example12":[
+		{"test.txt" : 1}
+	]},
+	{"first":[
+		{"test.txt" : 1}
+	]},
+	{"mail":[
+		{"test.txt" : 1}
+	]},
+	{"paulo":[
+		{"test.txt" : 1}
+	]},
+	{"paulo1":[
+		{"test.txt" : 1}
+	]},
+	{"rutgers":[
+		{"test.txt" : 1}
+	]},
+	{"test":[
+		{"test.txt" : 1}
+	]},
+	{"this":[
+		{"test.txt" : 1}
+	]}
+]}
+
+Second TestCase is to go through a Directory:
+	Testcases1/
+All Files were correctly recorded in the output file.
+
+Third TestCases tests storing files in a Directory within a Directory:
+	Testcases2/
+All Files were correctly recorded in the output file.
+
+
+
